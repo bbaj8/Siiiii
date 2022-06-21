@@ -507,7 +507,7 @@ async def cbabout(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**About {BOT_NAME} Bot 💡**
 
-**[{BOT_NAME}](https://t.me/{BOT_USERNAME})** برنامج Music Bot هو الروبوت المصمم بواسطة @MK_1B_PY لتشغيل موسيقى عالية الجودة وغير قابلة للكسر في الدردشة الصوتية الجماعية.
+**[{BOT_NAME}](https://t.me/{BOT_USERNAME})** برنامج Music Bot هو الروبوت المصمم بواسطة @@R125R لتشغيل موسيقى عالية الجودة وغير قابلة للكسر في الدردشة الصوتية الجماعية.
 
 يساعدك هذا الروبوت على تشغيل الموسيقى والبحث عن الموسيقى من youtube وتنزيل الموسيقى من خادم youtube والعديد من الميزات الأخرى المتعلقة بميزة الدردشة الصوتية telegram..
 
@@ -516,9 +516,9 @@ async def cbabout(_, query: CallbackQuery):
             [
               [
                     InlineKeyboardButton("🪄 ¦ الـدعـم", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/MK_1B_PY")
+                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/@R125R")
                 ],
-            [InlineKeyboardButton("💭 ¦ لـي تنـصيـب بـوتـك مجـاني", url=f"https://t.me/MK_1B_PY/1124")],
+            [InlineKeyboardButton("💭 ¦ لـي تنـصيـب بـوتـك مجـاني", url=f"https://t.me/@R125R/1124")],
             [InlineKeyboardButton("↩️ ¦ رجــوع", callback_data="cbhome")]]
         ),
     )
@@ -839,7 +839,7 @@ async def nonabout(_, query: CallbackQuery):
             [
               [
                     InlineKeyboardButton("🪄 ¦ الـدعـم", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/MK_1B_PY")
+                    InlineKeyboardButton("⚙️ ¦ الـسورس", url=f"https://t.me/R125R")
                 ],
               [InlineKeyboardButton("↩️ ¦ رجــوع", callback_data="cbmenu")]]
         ),

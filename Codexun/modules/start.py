@@ -1,5 +1,4 @@
 import asyncio
-from pytz import timezone
 from datetime import datetime
 from pyrogram import Client, filters, __version__ as pyrover
 from pyrogram.errors import FloodWait, UserNotParticipant
